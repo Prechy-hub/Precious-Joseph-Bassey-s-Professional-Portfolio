@@ -1,0 +1,82 @@
+/* Contact Section Styling */
+.contact-section {
+  background: #fefefe;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 38px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.section-title span {
+  color: #e63946; /* Soft red highlight for 'Touch' */
+}
+
+/* Paragraph Text */
+.contact-section p {
+  font-size: 17px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.7;
+}
+
+/* Contact Form Layout */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Labels */
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Input & Textarea */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #e63946;
+  outline: none;
+}
+
+/* Button Styling */
+.contact-form button {
+  background-color: #e63946;
+  color: #fff;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #d62828;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+  background-color: #b5173a;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
